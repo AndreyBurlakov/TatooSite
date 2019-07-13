@@ -1,0 +1,43 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+
+ul{
+	padding: 0;
+	width: 650px;
+	margin:0 auto;
+}
+
+li{
+	list-style: none;
+	float: left;
+	background: rgb(25,181,254);
+	color: white;
+	width:100px;
+	margin:5px;
+	padding:10px;
+	font-size: 20px;
+	text-align: center;
+	border-radius: 3px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.a{
+	position:absolute;
+	background: #2ecc71;
+	width: 100px;
+	border-radius: 3px;
+	font-size: 20px;
+	padding: 10px;
+	top: 0;
+	left: -120px;
+	transition:left 0.5s;
+	-webkit-transition:left 0.5s;
+}
+
+li:hover .a{
+	left: 0;
+}
