@@ -6,14 +6,42 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<meta name="description" content="tatoo">
 	<meta name="keywords" content="tatoo,home">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/video.js" ></script>
+	
+
+
 </head>
 <body>
 	<ul>
-		<li><a class="a" href="https://www.instagram.com/bodypoke_spb/">Запись</a>Запись</li>
-		<li><a class="a" href="">Работы</a>Работы</li>
-		<li><a class="a" href="">Информация</a>Информация</li>
-		<li><a class="a" href="">Новости</a>Новости</li>
-		<li><a class="a" href="https://www.instagram.com/bodypoke_spb/">Профиль</a>Профиль</li>
+		<li><a href="https://www.instagram.com/bodypoke_spb/">Информация</a></li>
+		<li><a href="https://www.instagram.com/bodypoke_spb">Работы</a></li>
+		<li><a href="#">Услуги</a>
+			<ul style="display: none;">
+				<li style="display: inline;"><a href="#">Утро</a></li>
+				<li style="display: none;"><a href="#">День</a></li>
+				<li style="display: none;"><a href="#">Вечер</a></li>
+			</ul>
+		</li>
+		<li><a href="https://www.instagram.com/bodypoke_spb">Новости</a></li>
+		<li><a href="https://www.instagram.com/bodypoke_spb/">Запись</a></li>
 	</ul>
+
+
+
+  <div class="homepage-hero-module">
+    <div class="video-container">
+      <div class="filter"></div>
+      <video autoplay loop class="fillWidth">
+      	<source src="video/Busy.mp4" type="video/mp4"/>
+      	<source src="video/Busy.webm" type="video/webm"/>
+      	<source src="video/Busy.ogv" type="video/ogv"/>
+      </video>
+        <div class="poster hidden">
+        <img src="video/Busy.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
 </body>
 </html>
